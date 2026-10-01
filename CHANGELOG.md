@@ -1,6 +1,9 @@
 # Changelog
 
-## [1.0.0] - 2023-09-15
+## [1.0.0] - 2026-10-01
 
 ### Added
-- This is a default template changelog that follows the [KeepAChangelog Convention](https://keepachangelog.com/en/1.1.0/)
+- Netty filter injected into ReplayMod's replay pipeline that drops custom-payload packets on
+  configurable channels (default: `theimpossiblelibrary`, `musictriggers`), so Music Triggers never
+  sees replayed network traffic and the replay viewer no longer disconnects.
+- Config keys `blockedChannels` and `logDroppedPackets` in `config/mtreplaycompat.cfg`.
