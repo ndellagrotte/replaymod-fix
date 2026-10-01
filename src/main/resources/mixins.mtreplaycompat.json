@@ -1,0 +1,13 @@
+{
+	"package": "io.github.ndellagrotte.mtreplaycompat.mixin",
+	"required": true,
+	"refmap": "mixins.mtreplaycompat.refmap.json",
+	"target": "@env(DEFAULT)",
+	"minVersion": "0.8",
+	"compatibilityLevel": "JAVA_8",
+	"mixins": [],
+	"server": [],
+	"client": [
+		"ReplayHandlerMixin"
+	]
+}
