@@ -35,7 +35,7 @@ configurations {
 
 dependencies {
     // ReplayMod 2.6.24
-    compileOnly files('.reference/target_compat_jars/replaymod-1.12.2-2.6.24.jar')
+    compileOnly files('replaymod-1.12.2-2.6.24.jar')
 
     // Include StripLatestForgeRequirements by default for the dev env, saves everyone a hassle
     runtimeOnly 'com.cleanroommc:strip-latest-forge-requirements:1.0'
